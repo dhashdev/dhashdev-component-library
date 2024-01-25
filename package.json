@@ -1,0 +1,59 @@
+{
+  "name": "dhashdev-component-lib",
+  "version": "1.0.0",
+  "description": "dhadhdev component library based on design code design system",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
+    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "Dhash",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.10",
+    "@storybook/addon-interactions": "^7.6.10",
+    "@storybook/addon-links": "^7.6.10",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.10",
+    "@storybook/react": "^7.6.10",
+    "@storybook/react-vite": "^7.6.10",
+    "@storybook/test": "^7.6.10",
+    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/react": "^14.1.2",
+    "@types/react": "^18.2.48",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "husky": "^9.0.5",
+    "jsdom": "^24.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.10",
+    "styled-components": "^6.1.8",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.2",
+    "vitest": "^1.2.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
