@@ -2,6 +2,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@dhash47"
   },
+  "author": "Dhash",
+  "license": "ISC",
+  "keywords": [],
   "name": "@dhashdev/dhashdev-component-library",
   "version": "1.0.0",
   "description": "dhadhdev component library based on design code design system",
@@ -18,11 +21,9 @@
     "test:ui": "vitest --ui",
     "build": "tsc && vite build",
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
-    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix"
+    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
+    "prepare": "npm run build"
   },
-  "author": "Dhash",
-  "license": "ISC",
-  "keywords": [],
   "devDependencies": {
     "@types/react": "^18.2.48",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
