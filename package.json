@@ -2,10 +2,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@dhash47"
   },
+  "name": "@dhashdev/dhashdev-component-library",
   "author": "Dhash",
   "license": "ISC",
   "keywords": [],
-  "name": "@dhashdev/dhashdev-component-library",
   "version": "1.0.0",
   "description": "dhadhdev component library based on design code design system",
   "type": "module",
@@ -15,6 +15,13 @@
   "files": [
     "/dist"
   ],
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint",
+      "npm run test"
+    ]
+  },
   "scripts": {
     "test": "vitest run",
     "test-watch": "vitest",
@@ -22,9 +29,19 @@
     "build": "tsc && vite build",
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.12",
+    "@storybook/addon-interactions": "^7.6.12",
+    "@storybook/addon-links": "^7.6.12",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.12",
+    "@storybook/react": "^7.6.12",
+    "@storybook/react-vite": "^7.6.12",
+    "@storybook/test": "^7.6.12",
     "@types/react": "^18.2.48",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
@@ -34,7 +51,12 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.15",
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.1",
     "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.12",
     "styled-components": "^6.1.8",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
@@ -42,5 +64,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "dependencies": {
+    "vitest": "^1.2.2"
   }
 }
