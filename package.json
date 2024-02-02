@@ -22,11 +22,7 @@
   "bugs": {
     "url": "https://github.com/dhash47/dhashdev-component-library/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm version patch --no-git-tag-version"
-    }
-  },
+  "version-check": "npm version patch --no-git-tag-version",
   "lint-staged": {
     "*.{ts,tsx}": [
       "npm run format",
