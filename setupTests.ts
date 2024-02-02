@@ -8,6 +8,4 @@ declare module "vitest" {
       TestingLibraryMatchers<T, void> {}
 }
 
-// npx version-check   "version-check": "npm version patch --no-git-tag-version",
-
 expect.extend(matchers);
