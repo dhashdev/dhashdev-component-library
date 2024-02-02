@@ -7,5 +7,4 @@ declare module "vitest" {
     extends jest.Matchers<void, T>,
       TestingLibraryMatchers<T, void> {}
 }
-//testing
 expect.extend(matchers);
