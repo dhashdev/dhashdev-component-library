@@ -4,6 +4,14 @@ import dts from "vite-plugin-dts";
 import { peerDependencies } from "./package.json";
 
 export default defineConfig({
+  test: {
+    globals: true,
+    environment: "jsdom",
+    exclude: [
+      "**/node_modules/**, **/dist/**, **/cypress/**, **/.{idea,git,cache,output,temp}/**, **/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*",
+    ],
+    setupFiles: "./setupTests.ts",
+  },
   build: {
     lib: {
       entry: "./src/index.ts", // Specifies the entry point for building the library.
@@ -18,9 +26,4 @@ export default defineConfig({
     emptyOutDir: true, // Clears the output directory before building.
   },
   plugins: [dts()], // Uses the 'vite-plugin-dts' plugin for generating TypeScript declaration files (d.ts).
-  test: {
-    globals: true,
-    environment: "jsdom",
-    setupFiles: "./setupTests.ts",
-  },
 });
