@@ -22,6 +22,17 @@
   "bugs": {
     "url": "https://github.com/dhash47/dhashdev-component-library/issues"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm version patch --no-git-tag-version"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint"
+    ]
+  },
   "scripts": {
     "test": "vitest run",
     "test-watch": "vitest",
@@ -31,6 +42,7 @@
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
     "prepare": "npm run build",
     "storybook": "storybook dev -p 6006",
+    "publish": "npm publish",
     "build-storybook": "storybook build"
   },
   "devDependencies": {

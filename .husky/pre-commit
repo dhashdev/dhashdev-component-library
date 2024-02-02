@@ -1,11 +1,4 @@
-# #!/bin/sh
-# . "$(dirname "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-# npx lint-staged
-# "lint-staged": {
-#     "*.{ts,tsx}": [
-#       "npm run format",
-#       "npm run lint",
-#       "npm run test"
-#     ]
-#   },
+npx lint-staged
