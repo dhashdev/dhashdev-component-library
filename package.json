@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/dhash47/dhashdev-component-library/issues"
   },
-  "version-check": "npm version patch --no-git-tag-version",
   "lint-staged": {
     "*.{ts,tsx}": [
       "npm run format",

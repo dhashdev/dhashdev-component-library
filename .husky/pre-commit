@@ -2,4 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx lint-staged
-npx version-check
+
+# npx version-check   "version-check": "npm version patch --no-git-tag-version",
