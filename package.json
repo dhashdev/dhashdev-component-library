@@ -1,9 +1,9 @@
 {
-  "name": "@dhashdev/dhashdev-component-library",
+  "name": "dhashdev-component-library",
   "author": "Dhash",
   "license": "ISC",
   "keywords": [],
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "dhadhdev component library based on design code design system",
   "type": "module",
   "main": "dist/index.cjs.js",
