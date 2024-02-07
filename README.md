@@ -10,15 +10,15 @@
 
 Welcome to dhashdev component library, a collection of reusable UI components built with design code principles. Our library aims to provide developers with a set of consistent, customizable, and easy-to-use components to streamline the development process and ensure a cohesive user experience across applications. The components are based on [Design+Code](https://designcode.io/), a extensible UI component build by [Meng to](https://twitter.com/MengTo) as [Figma](https://www.figma.com/file/uyBV0KLTueIe9Tu2hxZfRH/Design-System?type=design&node-id=6-2&mode=design) Components.
 
-## What is Design Code?
+## ⁇ What is Design Code?
 
 Design code is the practice of using design systems to bridge the gap between design and development. It involves translating design elements, such as colors, typography, spacing, and layout, into reusable code components. By following design code principles, developers can maintain consistency in UI elements, reduce redundancy in code, and accelerate the development process.
 
-## About dhashdev Component Library
+## 🤔 About dhashdev Component Library
 
 dhashdev component library is built on top of popular frameworks like React and styled-components, making it easy to integrate into your projects. Each component is meticulously crafted with attention to detail, accessibility, and performance in mind.
 
-# Features
+#   Features
 
 - **Reusable Components**: Our library includes a variety of reusable components such as buttons, inputs, cards, and more, allowing you to quickly build interfaces without reinventing the wheel.
 - **Customizable Styles**: Components are highly customizable, with support for theming, custom styles, and props to adapt to your project's specific needs.
@@ -51,7 +51,7 @@ const MyComponent = () => {
 };
 ```
 
-## Contribution
+## 🤝 Contribution
 
 Thank you for considering contributing to our project! To maintain a collaborative and productive environment, please adhere to the following guidelines when contributing:
 
@@ -87,11 +87,11 @@ We use Git branches to manage our development workflow. Here are some rules to f
 
 By following these guidelines and branching rules, we can collaborate effectively and maintain a high-quality codebase. Thank you for your contributions!
 
-## LICENSE
+## 🔐 LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Contact
+## 📲 Contact
 
 > GitHub [@dhashdev](https://github.com/dhashdev) &nbsp;&middot;&nbsp;
 > Twitter [@dhashdev](https://twitter.com/dhashdev) &nbsp;&middot;&nbsp;
