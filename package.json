@@ -3,7 +3,7 @@
   "author": "Dhash",
   "license": "ISC",
   "keywords": [],
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "dhadhdev component library based on design code design system",
   "type": "module",
   "main": "dist/index.cjs.js",
