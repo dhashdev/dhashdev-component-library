@@ -1,0 +1,35 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as Text from "./Text.stories.tsx";
+
+<Meta of={Text} title="Text" />
+
+# Text
+
+Text components with different props.
+
+#### Example
+
+<Canvas of={Text.Default} />
+
+## Usage
+
+```tsx
+import { Text } from "@dhashdev/dhashdev-component-library";
+
+const ExampleComponent = () => {
+  return <Text size={"small"} text={"Example Text"} variant={"paragraph"} />;
+};
+
+export default ExampleComponent;
+```
+
+#### Arguments
+
+- **text** _(`string`)_ - The text content to be displayed.
+- **variant** _(`string`)_ - The variant of the text, such as "heading", "paragraph", "caption", etc.
+- **size** _(`string`)_ - The size of the text, such as "small", "medium", "large", etc.
+- **fontSize** _(`string`)_ - The font size of the text.
+- **fontStyle** _(`string`)_ - The font style of the text, such as "normal", "italic", etc.
+- **fontWeight** _(`string`)_ - The font weight of the text, such as "normal", "bold", etc.
+- **color** _(`string`)_ - The color of the text.
+- **children** _(`ReactNode`)_ - The child elements to be rendered within the text component.
