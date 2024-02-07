@@ -18,7 +18,7 @@ Design code is the practice of using design systems to bridge the gap between de
 
 dhashdev component library is built on top of popular frameworks like React and styled-components, making it easy to integrate into your projects. Each component is meticulously crafted with attention to detail, accessibility, and performance in mind.
 
-#   Features
+## ✨ Features
 
 - **Reusable Components**: Our library includes a variety of reusable components such as buttons, inputs, cards, and more, allowing you to quickly build interfaces without reinventing the wheel.
 - **Customizable Styles**: Components are highly customizable, with support for theming, custom styles, and props to adapt to your project's specific needs.
