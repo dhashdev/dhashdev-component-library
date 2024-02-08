@@ -1,0 +1,54 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as Card from "./Card.stories.tsx";
+
+# Card Component Documentation
+
+This documentation provides an overview of the Card component along with usage examples and available props.
+
+<Meta of={Card} title="Card" />
+
+### Image Card
+
+<Canvas of={Card.ImageCard} />
+
+## Usage
+
+```tsx
+import { Card } from "@dhashdev/dhashdev-component-library";
+
+const ExampleComponent = () => {
+  return (
+    <Card
+      variant="image"
+      heading="Example Image Card"
+      description="This is an example image card with some description text."
+      imageUrl={{ url: "example-image-url.jpg" }}
+    />
+  );
+};
+
+export default ExampleComponent;
+```
+
+#### Arguments
+
+- **variant** _(string)_:
+  Specifies the variant of the card ("default", "image", "footer").
+
+- **heading** _(ReactNode)_:
+  The heading content of the card.
+
+- **description** _(ReactNode)_:
+  The description content of the card.
+
+- **imageUrl** _(object)_:
+  An object containing the URL of the image to be displayed in the card.
+
+- **footer** _(ReactNode)_:
+  The footer content of the card.
+
+- **height** _(string)_:
+  The height of the card.
+
+- **width** _(string)_:
+  The width of the card.
