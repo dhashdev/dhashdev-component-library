@@ -57,7 +57,7 @@ const Card: React.FC<CardProps> = ({
   width,
 }) => {
   return (
-    <StyledCard height={height} width={width}>
+    <StyledCard height={height} width={width} data-testid="card">
       {heading && <h2>{heading}</h2>}
       {variant === "image" && imageUrl && (
         <div>
