@@ -16,6 +16,7 @@ Design code is the practice of using design systems to bridge the gap between de
 
 ## 🤔 About dhashdev Component Library
 
+![alt text](./src/assets/images/desing-system-gif-blog.gif)
 dhashdev component library is built on top of popular frameworks like React and styled-components, making it easy to integrate into your projects. Each component is meticulously crafted with attention to detail, accessibility, and performance in mind.
 
 ## ✨ Features
