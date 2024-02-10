@@ -97,4 +97,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 > GitHub [@dhashdev](https://github.com/dhashdev) &nbsp;&middot;&nbsp;
 > Twitter [@dhashdev](https://twitter.com/dhashdev) &nbsp;&middot;&nbsp;
 > LinkedIn [@dhashdev](https://www.linkedin.com/in/dhashdev/) &nbsp;&middot;&nbsp;
-> Instagram [@dhashdev](https://www.instagram.com/dhashdev/) &nbsp;&middot;&nbsp;
+> Instagram [@dhashdev](https://www.instagram.com/dhash.dev/) &nbsp;&middot;&nbsp;
